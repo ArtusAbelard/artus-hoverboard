@@ -1,0 +1,29 @@
+
+  body {
+    background-color: #111;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .bigdiv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 500px;
+    gap: 9px;
+  }
+  
+  .square {
+    background-color: rgb(58, 58, 58);
+    height: 16px;
+    width: 16px;
+    border-radius: 15px;
+  }
+  
